@@ -1,1 +1,1 @@
-worker: python wageum.py
+worker : python wageum.py

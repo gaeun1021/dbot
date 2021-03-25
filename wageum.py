@@ -4,7 +4,7 @@ import time
 import asyncio
 
 bot = commands.Bot(command_prefix = '::', help_command = None) # 명령어 접두어 설정
-token = ('token') # Discord bot 토큰값(※노출금지)
+token = (TOKEN) # Discord bot 토큰값(※노출금지)
 users = {}
 
 @bot.event # Bot 온라인 접속 이벤트
